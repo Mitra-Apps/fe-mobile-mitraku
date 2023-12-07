@@ -47,7 +47,7 @@ The Boilerplate contains the minimal implementation required to create a new lib
 Fork, download or clone this repo by using the link below:
 
 ```
-https://github.com/zeref278/flutter_boilerplate.git
+https://github.com/Mitra-Apps/fe-mobile-mitraku.git
 ```
 
 **Step 2:**
@@ -290,10 +290,5 @@ setUp(() {
   });
 ```
 
-## CREDIT
-## This flutter boilerplate based on template https://github.com/zeref278/flutter_boilerplate
-
-
-
-
-
+## CREDIT 
+This flutter boilerplate based on template (https://github.com/zeref278/flutter_boilerplate)
