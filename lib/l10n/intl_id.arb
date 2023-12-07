@@ -1,0 +1,17 @@
+{
+  "load_failed": "Gagal memuat",
+  "dog_image_random": "Gambar anjing acak",
+  "load_image": "Muat gambar",
+  "home": "MitraKu",
+  "press_button": "Pencet tombol",
+  "setting": "Pengaturan",
+  "english": "Inggris",
+  "bahasa_indonesia": "Bahasa Indonesia",
+  "dark_mode": "Mode gelap",
+  "assets": "Assets gen",
+  "load_and_insert_db": "Muat gambar ke DB",
+  "image_from_db": "Gambar dari DB",
+  "delete_success": "Berhasil hapus",
+  "delete_failed": "Gagal hapus",
+  "didnt_supported": "Floor didnt support"
+}
