@@ -1,8 +1,8 @@
 import 'package:mitraku/features/app/bloc/app_bloc.dart';
 import 'package:mitraku/features/home/home_page.dart';
+import 'package:mitraku/features/intro/intro_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mitraku/features/login/login_page.dart';
 
 class AppDirector extends StatelessWidget {
   const AppDirector({super.key});
@@ -14,7 +14,7 @@ class AppDirector extends StatelessWidget {
       builder: (context, state) {
         final bool isFirstUse = state.isFirstUse;
         if (isFirstUse) {
-          return const LoginPage();
+          return const IntroPage();
         } else {
           return const HomePage();
         }
