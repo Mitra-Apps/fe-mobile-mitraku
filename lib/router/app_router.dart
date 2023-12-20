@@ -3,6 +3,8 @@ import 'package:mitraku/features/demo/view/assets_page.dart';
 import 'package:mitraku/features/demo/view/images_from_db_page.dart';
 import 'package:mitraku/features/dog_image_random/view/dog_image_random_page.dart';
 import 'package:mitraku/features/home/home_page.dart';
+import 'package:mitraku/features/login/login_page.dart';
+import 'package:mitraku/features/register/register_page.dart';
 import 'package:mitraku/features/setting/setting_page.dart';
 import 'package:mitraku/generated/l10n.dart';
 import 'package:mitraku/widgets/error_page.dart';
@@ -29,6 +31,12 @@ class AppRouter {
 
   static const String imagesFromDbNamed = 'imagesFromDb';
   static const String imagesFromDbPath = '/imagesFromDb';
+
+  static const String registerNamed = "register";
+  static const String registerPath = "/register";
+
+  static const String loginName = "login";
+  static const String loginPath = "/login";
 
   static GoRouter get router => _router;
   static final _router = GoRouter(
@@ -72,6 +80,16 @@ class AppRouter {
             content: S.current.didnt_supported,
           );
         },
+      ),
+      GoRoute(
+        name: registerNamed,
+        path: registerPath,
+        builder: (context, state) => const RegisterPage(),
+      ),
+      GoRoute(
+        name: loginName,
+        path: loginPath,
+        builder: (context, state) => const LoginPage(),
       ),
     ],
   );
